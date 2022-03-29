@@ -1,0 +1,93 @@
+/* --------------------------------------------------------------------------- */
+/* Configuração Global */
+/* --------------------------------------------------------------------------- */
+
+/* --------------------------------------------------------------------------- */
+/* Tipografia usada para as marcaçoes */
+/* 
+-Font sizes(px)
+10/12/14/16/18/20/24/30/36/44/52/62/74/86/98
+
+-Font weights
+default: 400
+
+-Line heights
+default: 1
+outras: 1.05 / 1.6
+
+-Colors
+primaria:
+outras:
+#333
+#555
+
+-Shadows
+
+-Border-radius
+
+-White space(px)
+2/4/8/12/16/24/32/48/64/80/96/128
+
+*/
+
+/* --------------------------------------------------------------------------- */
+
+/* Resetando valores iniciais de configuração */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Configurando a base de calculo do rem de 16px para 10px
+para facilitar a marcação */
+
+html {
+  font-size: 62.5%;
+}
+
+/* Aplicando valores padrão para todo o documento */
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+/* --------------------------------------------------------------------------- */
+/* Configuracões de container principal */
+/* --------------------------------------------------------------------------- */
+
+/* Container principal da pagina inicial configurando o conteudo do grid, 
+em dois containers de um lado o texto e do outro uma imagem */
+
+.inicial {
+  max-width: 190rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+/* Configuracao do H1 na sessao inicial */
+.heading-primario {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.05rem;
+  color: #333;
+  margin-bottom: 3.2rem;
+}
+
+/* Configuracao do texto de descricao da sessao inicial */
+.inicial-descricao {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+/* Imagem do container principal ocupando toda a largura disponivel no container */
+.img-inicial {
+  width: 100%;
+}
