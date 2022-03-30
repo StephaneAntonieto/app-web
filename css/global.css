@@ -1,9 +1,9 @@
 /* --------------------------------------------------------------------------- */
-/* Configuração Global */
+/* Global Configuration */
 /* --------------------------------------------------------------------------- */
 
 /* --------------------------------------------------------------------------- */
-/* Tipografia usada para as marcaçoes */
+/* Typography used for the markings */
 /* 
 -Font sizes(px)
 10/12/14/16/18/20/24/30/36/44/52/62/74/86/98
@@ -20,6 +20,12 @@ primaria:
 outras:
 #333
 #555
+Indigo
+#edf2ff #dbe4ff #bac8ff #91a7ff #748ffc
+#5c7cfa #4c6ef5 #4263eb #3b5bdb #364fc7
+Azul
+#e7f5ff #d0ebff #a5d8ff #74c0fc #4dabf7
+#339af0 #228be6 #1c7ed6 #1971c2 #1864ab
 
 -Shadows
 
@@ -32,21 +38,21 @@ outras:
 
 /* --------------------------------------------------------------------------- */
 
-/* Resetando valores iniciais de configuração */
+/* Resetting initial configuration values */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-/* Configurando a base de calculo do rem de 16px para 10px
-para facilitar a marcação */
+/* Setting the rem calculation base from 16px to 10px
+to facilitate the marking */
 
 html {
   font-size: 62.5%;
 }
 
-/* Aplicando valores padrão para todo o documento */
+/* Applying default values ​​to the entire document */
 
 body {
   font-family: sans-serif;
@@ -56,11 +62,12 @@ body {
 }
 
 /* --------------------------------------------------------------------------- */
-/* Configuracões de container principal */
+/* Main container settings */
 /* --------------------------------------------------------------------------- */
 
-/* Container principal da pagina inicial configurando o conteudo do grid, 
-em dois containers de um lado o texto e do outro uma imagem */
+/*Main container of the home page configuring the
+grid content, in two containers on one side the
+text and on the other an image */
 
 .inicial {
   max-width: 190rem;
@@ -70,7 +77,7 @@ em dois containers de um lado o texto e do outro uma imagem */
   align-items: center;
 }
 
-/* Configuracao do H1 na sessao inicial */
+/* H1 configuration in the initial session */
 .heading-primario {
   font-size: 5.2rem;
   font-weight: 700;
@@ -80,14 +87,15 @@ em dois containers de um lado o texto e do outro uma imagem */
   margin-bottom: 3.2rem;
 }
 
-/* Configuracao do texto de descricao da sessao inicial */
+/* Setting the initial session description text */
 .inicial-descricao {
   font-size: 2rem;
   line-height: 1.6;
   margin-bottom: 4.8rem;
 }
 
-/* Imagem do container principal ocupando toda a largura disponivel no container */
+/* Image of the main container occupying the entire
+the width available in the container */
 .img-inicial {
   width: 100%;
 }
