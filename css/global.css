@@ -13,17 +13,21 @@ default: 400
 
 -Line heights
 default: 1
-outras: 1.05 / 1.6
+others: 1.05 / 1.6
 
 -Colors
-primaria:
-outras:
-#333
-#555
-Indigo
-#edf2ff #dbe4ff #bac8ff #91a7ff #748ffc
-#5c7cfa #4c6ef5 #4263eb #3b5bdb #364fc7
-Azul
+primary:
+Clean
+#edf7fe #5fb3f8
+Dark
+#459ade
+
+others:
+
+Gray n Black
+#333 #555
+
+Blue
 #e7f5ff #d0ebff #a5d8ff #74c0fc #4dabf7
 #339af0 #228be6 #1c7ed6 #1971c2 #1864ab
 
@@ -65,20 +69,25 @@ body {
 /* Main container settings */
 /* --------------------------------------------------------------------------- */
 
-/*Main container of the home page configuring the
-grid content, in two containers on one side the
-text and on the other an image */
+/* Color and space control */
+.hero-section {
+  background-color: #edf7fe;
+  padding: 9.6rem 0;
+}
 
-.inicial {
-  max-width: 190rem;
+/* Grid container configuration in 2 boxes: text and image of
+the same size*/
+.hero {
+  max-width: 130rem;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
   align-items: center;
 }
 
 /* H1 configuration in the initial session */
-.heading-primario {
+.hero-heading {
   font-size: 5.2rem;
   font-weight: 700;
   line-height: 1.05;
@@ -88,14 +97,53 @@ text and on the other an image */
 }
 
 /* Setting the initial session description text */
-.inicial-descricao {
+.hero-description {
   font-size: 2rem;
   line-height: 1.6;
   margin-bottom: 4.8rem;
 }
 
+/* Buttons configuration */
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 1.6rem 3.2rem;
+  border-radius: 0.9rem;
+  transition: background-color 0.3s;
+}
+
+.btn--contact:link,
+.btn--contact:visited {
+  background-color: #5fb3f8;
+  color: #fff;
+}
+
+.btn--contact:hover,
+.btn--contact:active {
+  background-color: #459ade;
+}
+
+.btn--more:link,
+.btn--more:visited {
+  background-color: #fff;
+  color: #555;
+}
+
+.btn--more:hover,
+.btn--more:active {
+  background-color: #edf7fe;
+  box-shadow: inset 0 0 0 0.3rem #3678ad;
+}
+
 /* Image of the main container occupying the entire
 the width available in the container */
-.img-inicial {
+.img-hero {
   width: 100%;
+}
+
+/* Helper class */
+.margin-right-sm {
+  margin-right: 1.6rem !important;
 }
