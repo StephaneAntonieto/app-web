@@ -1,2 +1,2 @@
 # app-web
-## Web hero page project
+## Hero page project
