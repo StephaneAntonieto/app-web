@@ -1,2 +1,2 @@
 # app-web
-## Projeto de estudos web
+## Web hero page project
