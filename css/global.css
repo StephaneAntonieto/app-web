@@ -16,7 +16,12 @@ Bold:700
 
 -Line heights
 Default: 1
-Others: 1.05 / 1.6
+Paragraph default: 1.6
+Others: 1.05 / 1.2
+
+-Letter spacing
+-0.5px
+0.75px
 
 -Colors
 Primary:
@@ -71,14 +76,58 @@ body {
   color: #555;
 }
 
-/* H1 configuration in the initial session */
-.hero-heading {
-  font-size: 5.2rem;
+/* General grid container and components */
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* Heading and subheading configuration */
+.heading-primary,
+.heading-secondary {
   font-weight: 700;
-  line-height: 1.05;
-  letter-spacing: -0.05rem;
   color: #333;
+  letter-spacing: -0.5px;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
   margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+.heading-tertiary {
+}
+.subheading {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #459ade;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
 }
 
 /* Main buttons configuration */
@@ -199,20 +248,17 @@ the same size*/
   margin: 0 auto;
   padding: 0 3.2rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   gap: 9.6rem;
   align-items: center;
 }
 
-/* Setting the initial session description text */
 .hero-description {
   font-size: 2rem;
   line-height: 1.6;
   margin-bottom: 4.8rem;
 }
 
-/* Image of the main container occupying the entire
-the width available in the container */
 .img-hero {
   width: 100%;
 }
@@ -231,6 +277,7 @@ arrange the images vertically. */
   display: flex;
 }
 
+/* Sets images to be rounded on top of each other */
 .custumers-img-box img {
   height: 4.8rem;
   width: 4.8rem;
@@ -239,6 +286,7 @@ arrange the images vertically. */
   border: 0.3rem solid #3678ad;
 }
 
+/* Normalizes the last image */
 .custumers-img-box img:last-child {
   margin: 0;
 }
@@ -251,4 +299,16 @@ arrange the images vertically. */
 .main-custumer-text span {
   color: #459ade;
   font-weight: 700;
+}
+
+/* --------------------------------------------------------------------------- */
+/* HOW IT WORK SECTION */
+/* --------------------------------------------------------------------------- */
+
+.section-place {
+  padding: 9.6rem 0;
+}
+
+.place-img {
+  width: 50%;
 }
