@@ -189,3 +189,54 @@ to absolute and translating it to -50% negative to center the image. */
   width: 50%;
   border-radius: 4px;
 }
+
+/* --------------------------------------------------------------------------- */
+/* TESTIMONIALS AND GALLERY SECTION */
+/* --------------------------------------------------------------------------- */
+
+.testimonials-container {
+  padding: 9.6rem;
+}
+
+.section-testimonials {
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  background-color: #edf7fe;
+  align-items: center;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 4.8rem;
+  column-gap: 8rem;
+}
+
+.testimonial-img {
+  width: 6.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.testimonial-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+}
+
+.testimonial-name {
+  font-size: 1.6rem;
+  color: #777;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+}
