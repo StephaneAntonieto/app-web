@@ -127,7 +127,7 @@ arrange the images vertically. */
 }
 
 /* --------------------------------------------------------------------------- */
-/* HOW IT WORK SECTION */
+/* PLACES SECTION */
 /* --------------------------------------------------------------------------- */
 
 .section-place {
@@ -191,18 +191,12 @@ to absolute and translating it to -50% negative to center the image. */
 }
 
 /* --------------------------------------------------------------------------- */
-/* TESTIMONIALS AND GALLERY SECTION */
+/* TESTIMONIALS SECTION */
 /* --------------------------------------------------------------------------- */
 
-.testimonials-container {
-  padding: 9.6rem;
-}
-
 .section-testimonials {
-  display: grid;
-  grid-template-columns: 55fr 45fr;
+  padding: 9.6rem 0;
   background-color: #edf7fe;
-  align-items: center;
 }
 
 .testimonials {
@@ -229,6 +223,14 @@ to absolute and translating it to -50% negative to center the image. */
   color: #777;
 }
 
+/* --------------------------------------------------------------------------- */
+/* GALLERY SECTION */
+/* --------------------------------------------------------------------------- */
+
+.section-gallery {
+  padding: 9.6rem 0;
+}
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -239,4 +241,15 @@ to absolute and translating it to -50% negative to center the image. */
 .gallery-item img {
   display: block;
   width: 100%;
+  border-radius: 4px;
+  transition: all 0.4s;
 }
+
+/* Transformation effect on images by making a size scale transition */
+.gallery-item img:hover {
+  transform: scale(1.1);
+}
+
+/* --------------------------------------------------------------------------- */
+/* CONTACT SECTION */
+/* --------------------------------------------------------------------------- */
