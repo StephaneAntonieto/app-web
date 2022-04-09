@@ -140,6 +140,7 @@ body {
 }
 
 /* Main buttons configuration */
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -149,6 +150,20 @@ body {
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
   transition: background-color 0.3s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn--form {
+  background-color: #459ade;
+  color: #edf7fe;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
 }
 
 /* Buttons conf */
@@ -172,7 +187,12 @@ body {
 .btn--more:hover,
 .btn--more:active {
   background-color: #edf7fe;
-  box-shadow: inset 0 0 0 0.3rem #3678ad;
+  box-shadow: inset 0 0 0 3px #3678ad;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(45, 45, 200, 0.1);
 }
 
 /* --------------------------------------------------------------------------- */
