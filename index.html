@@ -8,6 +8,7 @@
   <!-- Import from CSS style files -->
   <link rel="stylesheet" href="/css/style.css" />
   <link rel="stylesheet" href="/css/global.css" />
+  <link rel="stylesheet" href="/css/queries.css">
   <!-- Google fonts style 400 regular, 500 medium, semibold 600 and 700 bold-->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -31,6 +32,10 @@
         <li><a class="main-nav-link nav-contact" href="#">Contato</a></li>
       </ul>
     </nav>
+    <button class="btn-mob-nav">
+      <ion-icon class="icon-mob" name="menu-outline"></ion-icon>
+      <ion-icon class="icon-mob" name="close-outline"></ion-icon>
+    </button>
   </header>
   <!--  -->
   <main>
@@ -38,13 +43,11 @@
       <div class="hero">
         <div class="hero-text-box">
           <h1 class="heading-primary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            É tempo de viajar!
           </h1>
           <p class="hero-description">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non
-            aliquid magni nobis expedita qui natus eius ex. Aliquid numquam
-            natus eius modi, eligendi cumque odit sit nesciunt architecto
-            officia dolorem.
+            A empresa V-Tour esta no mercado desde 2002, levando pessoas a visitar lugares maravilhosos em sua caravana.
+            Venha você também nessa aventura incrivél conosco!
           </p>
           <a href="#" class="btn btn--contact margin-right-sm">Entrar em contato</a>
           <a href="#" class="btn btn--more">Saber mais &darr;</a>
@@ -58,7 +61,7 @@
               <img src="/img/client/viajante6.jpg" alt="Custumer photo" />
             </div>
             <p class="main-custumer-text">
-              <span>100,000+</span> Aliquid numquam natus modi
+              <span>10,000+</span> Clientes!!!
             </p>
           </div>
         </div>
@@ -72,19 +75,22 @@
       <div class="container">
         <span class="subheading">Lugares</span>
         <h2 class="heading-secondary">
-          Esse abexcepturi at soluta cum laudantium elit
+          Beleza, monumentos e história
         </h2>
       </div>
       <div class="container grid grid--2-cols grid--center-v">
         <!-- PLACE 01 -->
         <div class="place-text-box">
           <p class="place">Itália</p>
-          <h3 class="heading-tertiary">Maxime tempore modi aspernatur</h3>
+          <h3 class="heading-tertiary">A capital, Roma, é sede do Vaticano</h3>
           <p class="place-description">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Accusantium delectus magni quod? Maxime tempore modi aspernatur
-            saepe nostrum corrupti incidunt consequuntur rem reprehenderit
-            officia. Doloremque atque quasi illum tempore natus!
+            A Itália, país europeu com uma longa costa mediterrânea, deixou uma marca poderosa na culinária e na cultura
+            ocidentais.
+            A capital, Roma, é sede do Vaticano e abriga obras de arte monumentais e ruínas antigas. Outra cidade
+            importante é
+            Florença, com obras-primas do Renascimento, como o "Davi", de Michelangelo, e o Domo de Brunelleschi.
+            Destacam-se também
+            Veneza, a cidade dos canais, e Milão, capital da moda italiana. ― Google
           </p>
         </div>
         <div class="place-img-box">
@@ -96,23 +102,30 @@
         </div>
         <div class="place-text-box">
           <p class="place">Egito</p>
-          <h3 class="heading-tertiary">Maxime tempore modi aspernatur</h3>
+          <h3 class="heading-tertiary">Monumentos construídos milênios atrás</h3>
           <p class="place-description">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Accusantium delectus magni quod? Maxime tempore modi aspernatur
-            saepe nostrum corrupti incidunt consequuntur rem reprehenderit
-            officia. Doloremque atque quasi illum tempore natus!
+            O Egito, um país que liga o nordeste da África ao Oriente Médio, remonta ao tempo dos faraós. Monumentos
+            construídos
+            milênios atrás ficam localizados ao longo do fértil vale do rio Nilo, como as colossais Pirâmides de Gizé e
+            a Esfinge,
+            além do Templo de Karnak (repleto de hieróglifos) e das tumbas do Vale dos Reis, ambos em Luxor. A capital,
+            Cairo,
+            abriga monumentos otomanos como a Mesquita de Muhammad Ali e o Museu Egípcio, com uma coleção de
+            antiguidades. ― Google
           </p>
         </div>
         <!-- PLACE 03 -->
         <div class="place-text-box">
           <p class="place">Israel</p>
-          <h3 class="heading-tertiary">Maxime tempore modi aspernatur</h3>
+          <h3 class="heading-tertiary">Os locais mais sagrados ficam em Jerusalém</h3>
           <p class="place-description">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Accusantium delectus magni quod? Maxime tempore modi aspernatur
-            saepe nostrum corrupti incidunt consequuntur rem reprehenderit
-            officia. Doloremque atque quasi illum tempore natus!
+            Israel, país do Oriente Médio às margens do Mar Mediterrâneo, é considerado a Terra Santa bíblica por
+            judeus, cristãos e
+            muçulmanos. Os locais mais sagrados ficam em Jerusalém. Na Cidade Antiga, o complexo do Monte do Templo
+            compreende o
+            Domo da Rocha, o histórico Muro das Lamentações, a Mesquita de Al-Aqsa e a Igreja do Santo Sepulcro. O
+            centro financeiro
+            de Israel, Tel Aviv, é conhecido por suas praias e pela arquitetura Bauhaus. ― Google
           </p>
         </div>
         <div class="place-img-box">
@@ -124,37 +137,36 @@
     <section class="section-testimonials">
       <div class="container">
         <span class="subheading">Testemunhos</span>
-        <h2 class="heading-secondary">Enim nesciunt nobis</h2>
+        <h2 class="heading-secondary">O que dizer sobre a V-Tour!</h2>
         <div class="testimonials">
           <figure class="testimonial">
             <img src="/img/client/viajante2.jpg" alt="John Smith" class="testimonial-img" />
             <blockquote class="testimonial-text">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim
-              nesciunt nobis, laborum nihil voluptate neque sunt unde quos.
+              Otima solução! Empresa cuidou de tudo, não tive problemas. Recomendo!
             </blockquote>
             <p class="testimonial-name">&mdash; John Smith</p>
           </figure>
           <figure class="testimonial">
             <img src="/img/client/viajante5.jpg" alt="Sarah Marad" class="testimonial-img" />
             <blockquote class="testimonial-text">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim
-              nesciunt nobis, laborum nihil voluptate neque sunt unde quos.
+              No começo achei que estaria em mais uma viagem como qualquer outra. Mas descobri lugares lindos, o guia
+              foi muito atencioso e com grande planejamento. Amei!
             </blockquote>
             <p class="testimonial-name">&mdash; Sarah Marad</p>
           </figure>
           <figure class="testimonial">
             <img src="/img/client/viajante6.jpg" alt="Elias Cardoso" class="testimonial-img" />
             <blockquote class="testimonial-text">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim
-              nesciunt nobis, laborum nihil voluptate neque sunt unde quos.
+              Grande responsabilidade, fui bem atendido desde o inicio. Otimo suporte a duvidas. Parabéns a equipe
+              V-tour!
             </blockquote>
             <p class="testimonial-name">&mdash; Elias Cardoso</p>
           </figure>
           <figure class="testimonial">
             <img src="/img/client/viajante1.jpg" alt="Kaina Sukar" class="testimonial-img" />
             <blockquote class="testimonial-text">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim
-              nesciunt nobis, laborum nihil voluptate neque sunt unde quos.
+              O pacote é oferecido por um preço que vale o investimento! Comparei a varias opcões de mercado e tenho que
+              dizer que vale a pena!!!
             </blockquote>
             <p class="testimonial-name">&mdash; Kaina Sukar</p>
           </figure>
@@ -166,7 +178,7 @@
       <div class="container">
         <span class="subheading">Galeria</span>
         <h2 class="heading-secondary">
-          Laborum nihil voluptate neque nde quos
+          Um pouquinho do que está por vir!
         </h2>
       </div>
       <div class="container gallery">
@@ -313,7 +325,8 @@
       </nav>
     </div>
   </footer>
-  <!-- Script for figures in svg format for social media -->
+  <!-- Script for figures in svg format for icons -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 

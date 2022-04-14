@@ -66,6 +66,7 @@ to facilitate the marking */
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 /* Applying default values ​​to the entire document */
@@ -75,6 +76,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  overflow-x: hidden;
 }
 
 /* General grid container and components */
