@@ -59,16 +59,16 @@
 ## O que dizer sobre a V-Tour!
 
 > Otima solução! Empresa cuidou de tudo, não tive problemas. Recomendo!
-> John Smith
+### John Smith
 > No começo achei que estaria em mais uma viagem como qualquer outra. Mas descobri
 > lugares lindos, o guia foi muito atencioso e com grande planejamento. Amei!
-> Sarah Marad
+### Sarah Marad
 > Grande responsabilidade, fui bem atendido desde o inicio. Otimo suporte a
 > duvidas. Parabéns a equipe V-tour!
-> Elias Cardoso
+### Elias Cardoso
 > O pacote é oferecido por um preço que vale o investimento! Comparei a varias
 > opcões de mercado e tenho que dizer que vale a pena!!!
-> Kaina Sukar
+### Kaina Sukar
 
 # Gallery
 
