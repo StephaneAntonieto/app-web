@@ -78,33 +78,33 @@
 
 ## Entrar em contato
 
-> Entre em contato conosco para agendar sua viagem!!!
-> Nome
-> Email
-> Como encontrou a V-tour!?
-> Escolha uma opção:
-> Amigos
-> Youtube
-> Podcast
-> Facebook
-> Instagram
-> Outros
-> Enviar
+1. Entre em contato conosco para agendar sua viagem!!!
+2. Nome
+3. Email
+4. Como encontrou a V-tour!?
+5. Escolha uma opção:
+* Amigos
+* Youtube
+* Podcast
+* Facebook
+* Instagram
+* Outros
+* Enviar
 
 # Footer
 
 > Copyright &copy; Stephane Corp.
-> Endereço
+## Endereço
 > Rua do conhecimento numero 77, Bairro do Saber. Estudando-SA
 > (77)7-777-7777
 > entendo@conhecer.com
-> Empresa
-> Sobre V-Tour
-> Trabalhos
-> Parceiros
-> Carreiras
-> Ajuda
-> Perguntas Frequentes
-> Centro de Ajuda
-> Termos
-> Seu lugar
+## Empresa
+* Sobre V-Tour
+* Trabalhos
+* Parceiros
+* Carreiras
+## Ajuda
+* Perguntas Frequentes
+* Centro de Ajuda
+* Termos
+* Seu lugar
