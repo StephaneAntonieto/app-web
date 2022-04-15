@@ -67,6 +67,7 @@ to facilitate the marking */
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 /* Applying default values ​​to the entire document */
