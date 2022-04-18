@@ -232,18 +232,18 @@
             <p class="contact-text">
               Entre em contato conosco para agendar sua viagem!!!
             </p>
-            <form action="#" class="contact-form">
+            <form class="contact-form" name="contact-form" netlify>
               <div>
                 <label for="full-name">Nome</label>
-                <input id="full-name" type="text" placeholder="Sarah Kaghar" required>
+                <input id="full-name" type="text" placeholder="Sarah Kaghar" name="full-name" required>
               </div>
               <div>
                 <label for="email">Email</label>
-                <input id="email" type="email" placeholder="sarah@exemplo.com" required>
+                <input id="email" type="email" placeholder="sarah@exemplo.com" name="email" required>
               </div>
               <div>
                 <label for="select-where">Como encontrou a V-tour!?</label>
-                <select name="" id="select-where" required>
+                <select id="select-where" name="select-where" required>
                   <option value="">Escolha uma opção:</option>
                   <option value="friends">Amigos</option>
                   <option value="youtube">Youtube</option>
