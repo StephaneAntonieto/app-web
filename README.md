@@ -1,4 +1,4 @@
-# app-web <https://sjahero.netlify.app/>
+# app-web
 
 ## A hero model page for studies and application of html and css concepts
 
