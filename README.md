@@ -1,5 +1,3 @@
-# app-web
-
 ## A hero model page for studies and application of html and css concepts
 
 >Application developed to remember and apply concepts learned in the study of html and css.
